@@ -1,0 +1,102 @@
+﻿@model VRPWebApp.Models.ConfigSpecification
+
+@{
+    ViewData["Title"] = "Create - ";
+    Layout = "_Layout";
+}
+<div class="card">
+    <h5 class="card-header">Configure mode and select data sample</h5>
+    <div class="row justify-content-center card-body">
+        <div class="col-md-4">
+            <form method="post" asp-controller="Vrp" asp-action="Result">
+                <div class="form-group">
+                    <label class="control-label">Algorithm:</label>
+                    <div class="col-md-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="AlgorithmMode" id="AlgorithmMode" value="0">
+                            <label class="form-check-label" for="AlgorithmMode">Haversine</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="AlgorithmMode" id="AlgorithmMode" value="1">
+                            <label class="form-check-label" for="AlgorithmMode" title="Hybrid mode for distance matrix calculation chooses closest
+                               locations by distance and count parameters and calculates distances for those locations using ArcGIS API.
+                               Other location distances are calculated by Haversine algorithm.">
+                                Hybrid
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="control-label">Time limit:</label>
+                    <input class="form-control" name="timeLimit" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Solution limit:</label>
+                    <input class="form-control" name="solutionLimit" />
+                </div>              
+                <div class="checkbox">
+                    <label><input type="checkbox" name="capacity" id="capacity" value="true"> CVRP</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" name="time" id="time" value="true"> VRPTW</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" name="depot" id="depot" value="true" onclick="myFunction()"> RVRP</label>
+                </div>
+                <div id="source" style="display:none">
+                    <div class="form-group">
+                        <label class="control-label">Vehicle load time:</label>
+                        <input class="form-control" name="loadTime" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Vehicle unload time:</label>
+                        <input class="form-control" name="unloadTime" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Depot capacity:</label>
+                        <input class="form-control" name="depotCapacity" />
+                    </div>
+                </div>                
+                <select class="form-control" id="solutionStrategy" name="Solution Strategy">
+                    <option value="0">Automatic</option>
+                    <option value="1">Path cheapest arc</option>
+                    <option value="2">Path most constrained arc</option>
+                    <option value="3">Evaluator strategy</option>
+                    <option value="4">Savings</option>
+                    <option value="5">Sweep</option>
+                    <option value="6">Christofides</option>
+                    <option value="7">All unperformed</option>
+                    <option value="8">Best insertion</option>
+                    <option value="9">Parallel cheapest insertion</option>
+                    <option value="10">Local cheapest insertion</option>
+                    <option value="11">Global cheapest insertion</option>
+                    <option value="12">Local cheapest insertion</option>
+                    <option value="13">First unbound minimal value</option>
+                    <option value="14">All unperformed</option>
+                </select>
+                <br />
+                <div class="form-group" align="left">
+                    <input type="submit" value="Solve VRP" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        // Get the checkbox
+        var checkBox = document.getElementById("depot");
+        // Get the output text
+        var source = document.getElementById("source");
+        var time = document.getElementById("time");
+        // If the checkbox is checked, display div
+        if (checkBox.checked == true) {
+            source.style.display = "block";
+            time.checked = true;
+        } else {
+            source.style.display = "none";
+        }
+    }
+</script>

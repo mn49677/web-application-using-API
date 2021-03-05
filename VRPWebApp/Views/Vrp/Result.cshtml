@@ -1,0 +1,212 @@
+﻿@model VRPWebApp.ViewModels.Vrp.ResultViewModel
+@{
+    ViewData["Title"] = "Result - ";
+
+    Layout = "_Layout";
+}
+<table id="example" class="table" style="width:100%; padding:5px;">
+    <thead class="">
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Routes</th>
+            <th>Distance (km)</th>
+            <th>Travel Time</th>
+            <th>Service Time</th>
+            <th>Stops</th>
+            <th>Volume</th>
+            <th>Weight</th>
+        </tr>
+    </thead>
+</table>
+<div>
+    <h3 id="mapHeader">Selected route</h3>
+    <div id='map' style='width: 100%; height:50vh;'></div>
+</div>
+<script>
+    var map;
+    window.onload = function () {
+        map = L.map('map', {
+            layers: MQ.mapLayer(),
+            center: [45, 15],
+            zoom: 9
+        });
+    }
+    var currentRoute = null;
+    var currentLocation = null;
+/* Formatting function for row details - modify as you need */
+    function format(d) {
+        // `d` is the original data object for the row
+        var s = "";
+        for (var i = 7; i < d.length; ++i) {
+            s +=
+                '<tr>' +
+                '<td>' + d[i][0] + '</td>' +
+                '<td>' + d[i][1] + '</td>' +
+                '<td>' + d[i][2] + '</td>' +
+                '<td>' + d[i][3] + '</td>' +
+                '<td>' + d[i][4] + '</td>' +
+                '<td>' + '<button class="btn btn-outline-secondary">Show On Map</button>' + '</td>'
+                '</tr>';
+        }
+        return '<table class="table table-striped">' + 
+            '<tr>' + 
+            '<th>Stop ID</th>' +
+            '<th>Arrival time</th>' +
+            '<th>Location Name</th>' +
+            '<th>Volume</th>' +
+            '<th>Weight</th>' +
+            '<th></th>'+
+            '</tr>' +
+            s +
+            '</table >';
+    }
+
+    var data = [];
+   @foreach (var r in Model.Routes)
+   {
+        <text>
+    data.push(["@r.RouteName", "@r.Distance", "@r.TravelTime", "@r.ServiceTime", "@r.Stops", "@r.Volume", "@r.Weight",
+        </text>
+         @foreach (var loc in r.Locations) {
+        <text>
+           ["@r.Locations.Where(r=>r.StopID == loc.StopID).FirstOrDefault().StopID",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().ArrivalTime",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().LocationName",
+            "@(r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Weight + "/" + r.Volume)",
+            "@(r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Volume + "/" + r.Weight)",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().X",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Y"],
+        </text>
+    }
+        <text>
+    ]);
+        </text>
+   }
+    $(document).ready(function () {
+        var table = $('#example').DataTable({
+            "data": data,
+            "columns": [
+                { title: "Routes" },
+                { title: "Distance (m)" },
+                { title: "Travel Time" },
+                { title: "Service Time" },
+                { title: "Stops" },
+                { title: "Volume" },
+                { title: "Weight" },
+                {
+                    title: "",
+                    "className": 'details-control',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '<button type="button" class="btn btn-info">Details</button>'
+
+                },
+                {
+                    title: "",
+                    "className": 'map-show-route',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '<button type="button" class="btn btn-outline-info">Map</button>'
+
+                }
+            ],
+            "order": [[0, 'asc']]
+        }
+        );
+
+
+        // Add event listener for opening and closing details
+        $('#example tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = table.row(tr);
+
+            if (row.child.isShown()) {
+                // This row is already open - close it
+                row.child.hide();
+                tr.removeClass('shown');
+            }
+            else {
+                // Open this row
+
+                row.child(format(row.data(), data)).show();
+                tr.addClass('shown');
+
+            }
+
+        });
+
+        $('#example tbody').on('click', 'td.map-show-route', function () {
+            var dir;
+            var tr = $(this).closest('tr');
+            var row = table.row(tr);
+            var route = data[row[0][0]];
+            var json = new Object();
+            json.locations = [];
+
+            for (var i = 7; i < route.length; ++i) {
+                var location = new Object();
+                location.latLng = { lat: route[i][5].toString().replace(",", "."), lng: route[i][6].toString().replace(",", ".") };
+                json.locations.push(location);
+            }
+
+            document.getElementById("mapHeader").innerHTML = "Selected route: " + route[0];
+
+            map.remove();
+            map = L.map('map', {
+                layers: MQ.mapLayer(),
+                center: [json.locations[0].latLng.lat.toString().replace(",", "."), json.locations[0].latLng.lng.toString().replace(",", ".")],
+                zoom: 9
+            });
+            dir = MQ.routing.directions();
+            dir.route(
+                json
+            );
+            var randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
+            //map.addLayer(MQ.routing.routeLayer({
+            //    directions: dir,
+            //    ribbonOptions: {
+            //        ribbonDisplay: { color: randomColor, opacity: 0.5 },
+            //        widths: [15, 15, 15, 15, 14, 13, 12, 12, 12, 11, 11, 11, 11, 12, 13, 14, 15]
+            //    },
+            //    fitBounds: true
+            //}));
+            CustomRouteLayer = MQ.Routing.RouteLayer.extend({
+                createStopMarker: function (location, stopNumber) {
+                    var custom_icon,
+                        marker;
+
+                    custom_icon = L.icon({
+                        iconUrl: 'https://localhost:44307/StaticFiles/Images/location.png',
+                        iconSize: [20, 29],
+                        iconAnchor: [10, 29],
+                        popupAnchor: [0, -29]
+                    });
+
+                    marker = L.marker(location.latLng, { icon: custom_icon })
+                        .bindPopup('X: '+location.latLng.lat
+                            + '\nY: ' + location.latLng.lng)
+                        .openPopup()
+                        .addTo(map);
+                    return marker;
+                }
+            });
+
+            map.addLayer(new CustomRouteLayer({
+                directions: dir,
+                fitBounds: true,
+                draggable: false,
+                ribbonOptions: {
+                    draggable: false,
+                    ribbonDisplay: { color: '#CC0000', opacity: 0.3 },
+                    widths: [15, 15, 15, 15, 14, 13, 12, 12, 12, 11, 11, 11, 11, 12, 13, 14, 15]
+                }
+            }));
+        });
+
+        // 
+
+        
+    });
+
+</script>

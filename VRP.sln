@@ -1,0 +1,86 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRouteService", "OpenRouteService\OpenRouteService.csproj", "{05AFF9C6-3A7E-478B-921F-B85F8C6D066D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORTools", "ORTools\ORTools.csproj", "{6F0DEA90-CE7C-4086-AA25-255602D28717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRPWebApp", "VRPWebApp\VRPWebApp.csproj", "{0C11BE43-0F4A-413A-858B-4C7CE4ACFB4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72E12C30-EE04-4310-A3C8-69987FC3E0B2} = {72E12C30-EE04-4310-A3C8-69987FC3E0B2}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlternativeAlgorithm", "AlternativeAlgorithm\AlternativeAlgorithm.csproj", "{72E12C30-EE04-4310-A3C8-69987FC3E0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDi_VRP_Models", "GDi_VRP_Models\GDi_VRP_Models.csproj", "{04D91D2C-A575-484A-8BF8-321D39EBD924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMapperMock", "DataMapperMock\DataMapperMock.csproj", "{25E5392A-72CA-487F-84E8-0A43B089BB3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesterAAConstants", "TesterAAConstants\TesterAAConstants.csproj", "{A8B52550-B170-4845-81B5-17BD3B35730F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FDA634FB-556B-430B-AD79-C9804BF6098F}"
+	ProjectSection(SolutionItems) = preProject
+		app.config = app.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapQuest", "MapQuest\MapQuest.csproj", "{D889E5CB-57D1-40AB-A285-5F0391CE180F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesterHAA", "TesterHAA\TesterHAA.csproj", "{9C8802BC-842E-4BD9-9ADF-63A657454E08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcGIS", "ArcGIS\ArcGIS.csproj", "{72B716B4-E880-423F-8E93-AD13F84E50FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05AFF9C6-3A7E-478B-921F-B85F8C6D066D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AFF9C6-3A7E-478B-921F-B85F8C6D066D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AFF9C6-3A7E-478B-921F-B85F8C6D066D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AFF9C6-3A7E-478B-921F-B85F8C6D066D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0DEA90-CE7C-4086-AA25-255602D28717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0DEA90-CE7C-4086-AA25-255602D28717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0DEA90-CE7C-4086-AA25-255602D28717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0DEA90-CE7C-4086-AA25-255602D28717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C11BE43-0F4A-413A-858B-4C7CE4ACFB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C11BE43-0F4A-413A-858B-4C7CE4ACFB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C11BE43-0F4A-413A-858B-4C7CE4ACFB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C11BE43-0F4A-413A-858B-4C7CE4ACFB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E12C30-EE04-4310-A3C8-69987FC3E0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E12C30-EE04-4310-A3C8-69987FC3E0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E12C30-EE04-4310-A3C8-69987FC3E0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E12C30-EE04-4310-A3C8-69987FC3E0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D91D2C-A575-484A-8BF8-321D39EBD924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D91D2C-A575-484A-8BF8-321D39EBD924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D91D2C-A575-484A-8BF8-321D39EBD924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D91D2C-A575-484A-8BF8-321D39EBD924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E5392A-72CA-487F-84E8-0A43B089BB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E5392A-72CA-487F-84E8-0A43B089BB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E5392A-72CA-487F-84E8-0A43B089BB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E5392A-72CA-487F-84E8-0A43B089BB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B52550-B170-4845-81B5-17BD3B35730F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B52550-B170-4845-81B5-17BD3B35730F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B52550-B170-4845-81B5-17BD3B35730F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B52550-B170-4845-81B5-17BD3B35730F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D889E5CB-57D1-40AB-A285-5F0391CE180F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D889E5CB-57D1-40AB-A285-5F0391CE180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D889E5CB-57D1-40AB-A285-5F0391CE180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D889E5CB-57D1-40AB-A285-5F0391CE180F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8802BC-842E-4BD9-9ADF-63A657454E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8802BC-842E-4BD9-9ADF-63A657454E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8802BC-842E-4BD9-9ADF-63A657454E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8802BC-842E-4BD9-9ADF-63A657454E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B716B4-E880-423F-8E93-AD13F84E50FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B716B4-E880-423F-8E93-AD13F84E50FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B716B4-E880-423F-8E93-AD13F84E50FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B716B4-E880-423F-8E93-AD13F84E50FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EA0A79C-B320-42DE-9782-2BCD0BFAC141}
+	EndGlobalSection
+EndGlobal

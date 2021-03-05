@@ -1,0 +1,1847 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "Name": "DA 596-CI - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4630",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 439-CJ - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587740400000,
+        "LatestStartTime": 1587744000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4450",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 439-CJ - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4450",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 803-ED - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587740400000,
+        "LatestStartTime": 1587744000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "36 5110",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 80000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 627-CJ - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4450",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 627-CJ - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4450",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 509-CI - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4630",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 509-CI - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587740400000,
+        "LatestStartTime": 1587744000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4630",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 401-CJ - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "30 4450",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 90000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 899-DR - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "14 15  18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "42 7460",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 70000,
+        "StartDepotServiceTime": 37.72
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 899-DR - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587740400000,
+        "LatestStartTime": 1587744000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "14 15  18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "42 7460",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 70000,
+        "StartDepotServiceTime": 37.72
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 964-EP - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18670",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 964-EP - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18670",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 803-ED - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "36 5110",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 80000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 409-CJ - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "36 5130",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 80000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 409-CJ - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 CREW LDC_Zagreb",
+        "Capacities": "36 5130",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 80000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 965-EP - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CREW LDC_Zagreb",
+        "Capacities": "93 17140",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 4000,
+        "StartDepotServiceTime": 71.38
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 287-FO - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 287-FO - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 527-CK - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 527-CK - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 112-DH - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18100",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 112-DH - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18100",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 534-CK - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587787200000,
+        "LatestStartTime": 1587790800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 534-CK - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 682-DR - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18650",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 682-DR - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587747600000,
+        "LatestStartTime": 1587751200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18650",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 896-DR - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "14 15  18 30 33 35 LDC_Zagreb",
+        "Capacities": "42 7500",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 70000,
+        "StartDepotServiceTime": 37.72
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 666-DR - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18680",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 666-DR - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587747600000,
+        "LatestStartTime": 1587751200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18680",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 114-DH - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 LDC_Zagreb",
+        "Capacities": "105 18270",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 1000,
+        "StartDepotServiceTime": 79.3
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 115-DH - Team1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8770",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 115-DH - Team2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8770",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 382-FK - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 9440",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 382-FK - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 9440",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 528-CK - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587780000000,
+        "LatestStartTime": 1587783600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 528-CK - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8690",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 111-DH - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8770",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 111-DH - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8770",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 286-FO - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587780000000,
+        "LatestStartTime": 1587783600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8860",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 286-FO - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8860",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 286-FO - Team 3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8860",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 667-DR - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587780000000,
+        "LatestStartTime": 1587783600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 9180",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 667-DR - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 9180",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "DA 667-DR - Team 3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 9180",
+        "MaxTotalTime": 510,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 0,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 50000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587740400000,
+        "LatestStartTime": 1587744000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team4",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team5",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team6",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team9",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team10",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team11",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team14",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team15",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team16",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team17",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team20",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587780000000,
+        "LatestStartTime": 1587783600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team22",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 10pl - Team23",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "10 12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "30 3500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 29.8
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team4",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team5",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 18pl - Team 21",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 18pl - Team 22",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587794400000,
+        "LatestStartTime": 1587798000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 18pl - Team 23",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587808800000,
+        "LatestStartTime": 1587812400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "18 30 33 35 LDC_Zagreb",
+        "Capacities": "54 8500",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 45.64
+      }
+    },
+    {
+      "attributes": {
+        "Name": "ZG locco 12pl - Team6",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "12 14 15 18 30 33 35 LDC_Zagreb",
+        "Capacities": "36 5000",
+        "MaxTotalTime": 550,
+        "EndDepotName": "LDC Zagreb",
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 33.760000000000005
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587754800000,
+        "LatestStartTime": 1587758400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587771000000,
+        "LatestStartTime": 1587774600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 4",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 5",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 6",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Poreč - Team 7",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587754800000,
+        "LatestStartTime": 1587758400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Porec",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587754800000,
+        "LatestStartTime": 1587758400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 4",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587783600000,
+        "LatestStartTime": 1587787200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 5",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 6",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 7",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587747600000,
+        "LatestStartTime": 1587751200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 8",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587780000000,
+        "LatestStartTime": 1587783600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Rijeka - Team 9",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Rijeka",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Split - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587744000000,
+        "LatestStartTime": 1587747600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Split",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Split - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587781800000,
+        "LatestStartTime": 1587785400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Split",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 1",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587751200000,
+        "LatestStartTime": 1587754800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 2",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587774600000,
+        "LatestStartTime": 1587778200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 3",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587812400000,
+        "LatestStartTime": 1587816000000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 4",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587772800000,
+        "LatestStartTime": 1587776400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 5",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587816000000,
+        "LatestStartTime": 1587819600000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 6",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587769200000,
+        "LatestStartTime": 1587772800000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 7",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587747600000,
+        "LatestStartTime": 1587751200000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 8",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587772800000,
+        "LatestStartTime": 1587776400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    },
+    {
+      "attributes": {
+        "Name": "VP Osijek - Team 9",
+        "StartDepotName": "LDC Zagreb",
+        "EarliestStartTime": 1587790800000,
+        "LatestStartTime": 1587794400000,
+        "MaxOrderCount": 100,
+        "SpecialtyNames": "30 33 35 CD_Osijek",
+        "Capacities": "99 24000",
+        "MaxTotalTime": 550,
+        "EndDepotName": null,
+        "FixedCost": 1000000000,
+        "Subcontractor": 0,
+        "CostPerUnitTime": 1000,
+        "CostPerUnitOvertime": 1500,
+        "CostPerUnitDistance": 500000,
+        "StartDepotServiceTime": 75.34
+      }
+    }
+  ]
+}

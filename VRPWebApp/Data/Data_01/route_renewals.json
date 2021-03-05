@@ -1,0 +1,683 @@
+{
+    "features": [
+        {
+            "attributes": {
+                "RouteName": "DA 596-CI - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 439-CJ - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 439-CJ - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 803-ED - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 627-CJ - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 627-CJ - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 509-CI - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 509-CI - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 401-CJ - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 899-DR - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 37.72
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 899-DR - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 37.72
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 964-EP - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 964-EP - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 803-ED - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 409-CJ - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 409-CJ - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 965-EP - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 71.38
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 287-FO - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 287-FO - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 527-CK - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 527-CK - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 112-DH - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 112-DH - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 534-CK - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 534-CK - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 682-DR - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 682-DR - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 896-DR - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 37.72
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 666-DR - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 666-DR - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 114-DH - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 79.3
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 115-DH - Team1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 115-DH - Team2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 382-FK - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 382-FK - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 528-CK - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 528-CK - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 111-DH - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 111-DH - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 286-FO - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 286-FO - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 286-FO - Team 3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 667-DR - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 667-DR - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "DA 667-DR - Team 3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team4",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team5",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team6",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team9",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team10",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team11",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team14",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team15",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team16",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team17",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team20",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team22",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 10pl - Team23",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 29.8
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team4",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team5",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 18pl - Team 21",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 18pl - Team 22",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 18pl - Team 23",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 45.64
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "ZG locco 12pl - Team6",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 33.760000000000005
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 4",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 5",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 6",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Poreč - Team 7",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 4",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 5",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 6",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 7",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 8",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Rijeka - Team 9",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Split - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Split - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 1",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 2",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 3",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 4",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 5",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 6",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 7",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 8",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        },
+        {
+            "attributes": {
+                "RouteName": "VP Osijek - Team 9",
+                "DepotName": "LDC Zagreb",
+                "ServiceTime": 75.34
+            }
+        }
+    ]
+}

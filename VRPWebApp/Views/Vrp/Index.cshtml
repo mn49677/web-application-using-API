@@ -1,0 +1,185 @@
+﻿@model VRPWebApp.ViewModels.Vrp.ResultViewModel
+@{
+    Layout = "_Layout";
+}
+<table id="example" class="table" style="width:100%; padding:5px;">
+    <thead class="">
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Routes</th>
+            <th>Hours</th>
+            <th>Drive</th>
+            <th>Distance (km)</th>
+            <th>Travel Time</th>
+            <th>Service Time</th>
+            <th>Stops</th>
+            <th>Floor Space</th>
+            <th>Volume</th>
+            <th>Weight</th>
+        </tr>
+    </thead>
+</table>
+<div>
+    <h3 id="mapHeader">Selected route</h3>
+    <div id='map' style='width: 100%; height:50vh;'></div>
+</div>
+<script>
+    var map;
+    window.onload = function () {
+        map = L.map('map', {
+            layers: MQ.mapLayer(),
+            center: [45, 15],
+            zoom: 9
+        });
+    }
+    var currentRoute = null;
+    var currentLocation = null;
+/* Formatting function for row details - modify as you need */
+    function format(d) {
+        // `d` is the original data object for the row
+        var s = "";
+        for (var i = 10; i < d.length; ++i) {
+            s +=
+                '<tr>' +
+                '<td>' + d[i][0] + '</td>' +
+                '<td>' + d[i][1] + '</td>' +
+                '<td>' + d[i][2] + '</td>' +
+                '<td>' + d[i][3] + '</td>' +
+                '<td>' + d[i][4] + '</td>' +
+                '<td>' + d[i][5] + '</td>' +
+                '<td>' + '<button class="btn btn-secondary">Show On Map</button>' + '<td>'
+                '</tr>';
+        }
+        return '<table class="table table-striped">' +
+            '<th>Stop ID</th>' +
+            '<th>Order ID</th>' +
+            '<th>Location Name</th>' +
+            '<th>Floor Space</th>' +
+            '<th>Volume</th>' +
+            '<th>Weight</th>' +
+            '<th></th>'+
+            '</tr >' +
+            s +
+            '</table >';
+    }
+
+    var data = [];
+   @foreach (var r in Model.Routes)
+   {
+        <text>
+    data.push(["@r.RouteName", "@r.Hours", "@r.Drive", "@r.Distance", "0", "0", "@r.Stops", "@r.FloorSpace", "@r.Volume", "@r.Weight",
+        </text>
+         @foreach (var loc in r.Locations) {
+        <text>
+           ["@r.Locations.Where(r=>r.StopID == loc.StopID).FirstOrDefault().StopID",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().OrderID",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().LocationName",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().FloorSpace",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Volume",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Weight",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().X",
+            "@r.Locations.Where(r => r.StopID == loc.StopID).FirstOrDefault().Y"],
+        </text>
+    }
+        <text>
+    ]);
+        </text>
+   }
+    $(document).ready(function () {
+        var table = $('#example').DataTable({
+            "data": data,
+            "columns": [
+                { title: "Routes" },
+                { title: "Hours" },
+                { title: "Drive" },
+                { title: "Distance (km)" },
+                { title: "Travel Time" },
+                { title: "Service Time" },
+                { title: "Stops" },
+                { title: "Floor Space" },
+                { title: "Volume" },
+                { title: "Weight" },
+                {
+                    title: "",
+                    "className": 'details-control',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '<button type="button" class="btn btn-info">Details</button>'
+
+                },
+                {
+                    title: "",
+                    "className": 'map-show-route',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '<button type="button" class="btn btn-outline-info">Map</button>'
+
+                }
+            ],
+            "order": [[0, 'asc']]
+        }
+        );
+
+
+        // Add event listener for opening and closing details
+        $('#example tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = table.row(tr);
+
+            if (row.child.isShown()) {
+                // This row is already open - close it
+                row.child.hide();
+                tr.removeClass('shown');
+            }
+            else {
+                // Open this row
+
+                row.child(format(row.data(), data)).show();
+                tr.addClass('shown');
+
+            }
+
+        });
+
+        $('#example tbody').on('click', 'td.map-show-route', function () {
+            var dir;
+            var tr = $(this).closest('tr');
+            var row = table.row(tr);
+            var route = data[row[0][0]];
+            var json = new Object();
+            json.locations = [];
+
+            for (var i = 10; i < route.length; ++i) {
+                var location = new Object();
+                location.latLng =  { lat: route[i][6], lng: route[i][7] };
+                json.locations.push(location);
+            }
+            //document.getElementById('map').innerHTML = "<div id='map' style='width: 100 %; height: 50vh; '></div>";
+            document.getElementById("mapHeader").innerHTML = "Selected route: " + route[0];
+            var jsonStr = JSON.parse(JSON.stringify(json));
+
+            map.remove();
+            map = L.map('map', {
+                layers: MQ.mapLayer(),
+                center: [json.locations[0].latLng.lat, json.locations[0].latLng.lng],
+                zoom: 9
+            });
+            dir = MQ.routing.directions();
+            dir.optimizedRoute(
+                jsonStr
+            );
+            var randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
+            map.addLayer(MQ.routing.routeLayer({
+                directions: dir,
+                ribbonOptions: {
+                    ribbonDisplay: { color: randomColor, opacity: 0.5 },
+                    widths: [15, 15, 15, 15, 14, 13, 12, 12, 12, 11, 11, 11, 11, 12, 13, 14, 15]
+                },
+                fitBounds: true
+            }));
+
+        });
+    });
+
+</script>
